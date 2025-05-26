@@ -6,6 +6,9 @@ public class Mission01 {
         int num2 = 3;
         double result = num1 / num2;
 
+        // double / int ==> double
+        // float / int == > float
+        // long / float ==> float
 
         System.out.printf("result: %f", result); // 3.3333333
     }
