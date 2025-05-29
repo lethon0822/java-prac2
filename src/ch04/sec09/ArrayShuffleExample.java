@@ -18,7 +18,7 @@ public class ArrayShuffleExample {
         //int num = (int)(Math.random()*10.0);
         System.out.println("기본 : " + Arrays.toString(arr));
         for (int i = 0; i<arr.length; i++){
-            int num = (int)(Math.random()*10.0);
+            int num = (int)(Math.random() * arr.length);
             int temp = arr[num];
             arr[num] = arr[i];
             arr[i] = temp;
