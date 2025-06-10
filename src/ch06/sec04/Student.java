@@ -4,7 +4,6 @@ public class Student {
     String name;
 
     public Student() {
-
     }
 
     void introduce() {
