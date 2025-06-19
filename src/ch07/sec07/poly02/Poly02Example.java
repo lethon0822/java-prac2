@@ -5,7 +5,7 @@ public class Poly02Example {
         Buyer buyer = new Buyer();
         buyer.buy(new TV());
         buyer.buy(new TV());
-        buyer.buy(new TV());`
+        buyer.buy(new TV());
         buyer.buy(new Computer());
         buyer.buy(new Computer());
         buyer.buy(new Computer());
