@@ -12,7 +12,7 @@ public class Taxi implements Vehicle, Trunk {
         System.out.println("택시가 멈춘다.");
     }
 
-    public void load(String str) {
-        System.out.println("덜컹덜컹");
+    public void load(String luggage) {
+        System.out.printf("덜컹덜컹 %s가 택시에 실렸다.", luggage);
     }
 }
